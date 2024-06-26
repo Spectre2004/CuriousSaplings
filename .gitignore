@@ -1,0 +1,39 @@
+# Общие исключения
+*.log
+*.tmp
+*.swp
+*.sln.docstates
+*.userosscache
+.DS_Store
+Thumbs.db
+
+# Исключение для системы управления версиями
+.git/
+.gitignore
+
+# Node.js
+client/node_modules/
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/build/
+
+# Visual Studio
+.vscode/
+*.user
+*.suo
+
+# ASP.NET Core
+server/bin/
+server/obj/
+server/appsettings.Development.json
+
+# Кэш зависимости пакетов
+client/package-lock.json
+server/package-lock.json
+server/node_modules/
+
+# Сборочные артефакты
+server/publish/
